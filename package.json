@@ -1,0 +1,36 @@
+{
+  "name": "take-put",
+  "version": "1.0.0",
+  "description": "A cross-platform CLI tool for temporarily taking and putting files/folders with system-wide clipboard integration",
+  "main": "src/index.js",
+  "bin": {
+    "tp": "src/index.js",
+    "take-put": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/test.js",
+    "install-cli": "npm install -g ."
+  },
+  "keywords": [
+    "cli",
+    "file",
+    "copy",
+    "cut",
+    "paste",
+    "clipboard"
+  ],
+  "author": "Edward Terry",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ed-terry/take-put"
+  }
+}

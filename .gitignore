@@ -1,0 +1,9 @@
+node_modules/
+.take-put/
+npm-debug.log*
+.DS_Store
+*.log
+.env
+dist/
+build/
+.vscode/
